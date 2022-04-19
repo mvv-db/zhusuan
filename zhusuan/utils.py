@@ -5,7 +5,7 @@ from __future__ import absolute_import
 from __future__ import division
 from functools import wraps
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 
 __all__ = [

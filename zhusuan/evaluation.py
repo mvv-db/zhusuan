@@ -6,7 +6,7 @@ from __future__ import division
 
 import six
 from six.moves import zip, map, range
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
 
 from zhusuan.utils import log_mean_exp, merge_dicts

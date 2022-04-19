@@ -6,7 +6,7 @@ from __future__ import print_function
 from __future__ import division
 from itertools import permutations
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from zhusuan.model.utils import *
 from zhusuan.model.utils import Context

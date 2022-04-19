@@ -10,7 +10,7 @@ from six.moves import range
 from skimage import io, img_as_ubyte
 from skimage.exposure import rescale_intensity
 from tensorflow.contrib.framework.python.ops import add_arg_scope
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow.contrib import layers
 
 

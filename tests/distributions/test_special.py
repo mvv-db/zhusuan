@@ -6,7 +6,7 @@ from __future__ import print_function
 from __future__ import division
 
 from functools import partial
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
 
 from tests.distributions import utils

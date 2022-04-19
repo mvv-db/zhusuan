@@ -8,7 +8,7 @@ from __future__ import division
 import numpy as np
 from scipy import stats
 import matplotlib.pyplot as plt
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import zhusuan as zs
 
 

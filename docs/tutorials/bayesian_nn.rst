@@ -105,7 +105,7 @@ likelihood when evaluating the probability::
 
 Putting together and adding model reuse, the code for constructing a BayesianNN is::
 
-    import tensorflow as tf
+    import tensorflow.compat.v1 as tf
     import zhusuan as zs
 
     @zs.reuse('model')

@@ -7,7 +7,7 @@ from __future__ import division
 
 from mock import Mock
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 import zhusuan as zs
 from zhusuan.model.base import *

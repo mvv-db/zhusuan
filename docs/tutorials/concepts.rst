@@ -49,7 +49,7 @@ its ``value_shape`` is [].
 Example of univariate distributions
 (:class:`~zhusuan.distributions.univariate.Normal`)::
 
-    >>> import tensorflow as tf
+    >>> import tensorflow.compat.v1 as tf
     >>> _ = tf.InteractiveSession()
 
     >>> b = zs.distributions.Normal([[-1., 1.], [0., -2.]], [0., 1.])
@@ -179,7 +179,7 @@ A Bayesian Linear Regression example:
 
 ::
 
-    import tensorflow as tf
+    import tensorflow.compat.v1 as tf
     import zhusuan as zs
 
     def bayesian_linear_regression(x, alpha, beta):

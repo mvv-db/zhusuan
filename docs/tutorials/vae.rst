@@ -99,7 +99,7 @@ likelihood when evaluating the probability of an image::
 
 Putting together, the code for constructing a VAE is::
 
-    import tensorflow as tf
+    import tensorflow.compat.v1 as tf
     from tensorflow.contrib import layers
     import zhusuan as zs
 

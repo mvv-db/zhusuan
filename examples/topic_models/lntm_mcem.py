@@ -13,7 +13,7 @@ import sys
 import os
 import time
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from six.moves import range, zip
 from functools import partial
 import numpy as np

@@ -3,7 +3,7 @@ Gaussian Process utils. Design inspired by GPflow.
 '''
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import zhusuan as zs
 
 

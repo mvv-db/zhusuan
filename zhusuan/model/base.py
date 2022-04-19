@@ -8,7 +8,7 @@ from collections import OrderedDict
 
 import six
 from six.moves import zip
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow.python.client.session import \
     register_session_run_conversion_functions
 
@@ -212,7 +212,7 @@ class BayesianNet(Context):
 
     ::
 
-        import tensorflow as tf
+        import tensorflow.compat.v1 as tf
         import zhusuan as zs
 
         def bayesian_linear_regression(x, alpha, beta):

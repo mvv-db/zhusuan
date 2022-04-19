@@ -8,7 +8,7 @@ import warnings
 
 from scipy import stats
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from zhusuan.variational.inclusive_kl import *
 from zhusuan.distributions import Normal

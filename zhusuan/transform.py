@@ -4,7 +4,7 @@
 from __future__ import absolute_import
 from __future__ import division
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from zhusuan.utils import convert_to_int
 import numpy as np
 

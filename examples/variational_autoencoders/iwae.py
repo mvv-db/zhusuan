@@ -11,7 +11,7 @@ from __future__ import division
 import os
 import time
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from six.moves import range
 import numpy as np
 import zhusuan as zs

@@ -5,7 +5,7 @@ from __future__ import absolute_import
 from __future__ import division
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from zhusuan.distributions.base import Distribution
 from zhusuan.distributions.utils import (

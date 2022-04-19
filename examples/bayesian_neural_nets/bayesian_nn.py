@@ -6,7 +6,7 @@ from __future__ import print_function
 from __future__ import division
 import os
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from six.moves import range, zip
 import numpy as np
 import zhusuan as zs

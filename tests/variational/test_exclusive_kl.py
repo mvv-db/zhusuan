@@ -7,7 +7,7 @@ from __future__ import division
 
 from scipy import stats
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from zhusuan.variational.exclusive_kl import *
 from zhusuan.distributions import Normal
